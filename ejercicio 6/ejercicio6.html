@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="../estilos/css/bootstrap.min.css" />
+    <style>
+      body {
+        background-color: #000000;
+        color: #f1f1f1;
+        font-family: Arial, sans-serif;
+      }
+
+      .navbar {
+        background-color: #00b126 !important;
+        padding: 15px 30px;
+      }
+
+      .navbar .navbar-brand {
+        font-size: 1.8rem;
+        color: #ecf0f1 !important;
+      }
+
+      .navbar .nav-link {
+        font-size: 1.1rem;
+        color: #bdc3c7 !important;
+        margin-left: 20px;
+      }
+
+      .navbar .nav-link:hover {
+        color: #e74c3c !important;
+        font-size: 1.15rem;
+      }
+
+      .navbar-toggler-icon {
+        background-color: #ecf0f1;
+      }
+
+      .dropdown-menu {
+        background-color: #34495e;
+        border-radius: 5px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+      }
+
+      .dropdown-item {
+        font-size: 1.1rem;
+        color: #ecf0f1;
+        padding: 10px 20px;
+      }
+
+      .dropdown-item:hover {
+        background-color: #e74c3c;
+        color: #fff;
+      }
+
+      .navbar .nav-item.dropdown .nav-link {
+        font-size: 1.2rem;
+        color: #ecf0f1 !important;
+      }
+
+      .navbar-nav {
+        margin-left: auto;
+      }
+
+      .container-fluid {
+        padding: 0 15px;
+      }
+
+      .carousel-section {
+        padding: 50px 0;
+        text-align: center;
+      }
+
+      h2 {
+        margin-bottom: 30px;
+      }
+
+      .carousel-inner img {
+        height: 500px;
+        object-fit: cover;
+      }
+    </style>
+    <title>MENU</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        
+      <div class="container-fluid">
+      
+        <a class="navbar-brand" href="/indexMenu.html">MENU</a>
+      
+      
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+      
+          </button>
+      
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+      
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    formularios
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="../Formularios/Formulario.html">Formulario</a></li>
+                    <li><a class="dropdown-item" href="../Formularios/formulario1.html">Formulario 2</a></li>
+                    <li><a class="dropdown-item" href="../Formularios/formulario2.html">Formulario 3</a></li>
+                    <li><a class="dropdown-item" href="../Formularios/formulario3.html">Formulario 4</a></li>
+                    <li><a class="dropdown-item" href="../Formularios/formulario4.html">Formulario 5</a></li>
+                  </ul>
+                </li>
+
+              </li>
+              <li class="nav-item">
+      
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    practicas con Tailwind
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="../tailwind/ejercicio1/EJERCICIOS TAILWIND.html">Ejercicio 1</a></li>
+                    <li><a class="dropdown-item" href="../tailwind/ejercicio 2/eEjercicio 2.html">ejercicio 2 </a></li>
+                  </ul>
+                </li>
+
+              </li>
+      
+              <li class="nav-item">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Pagina web
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="../Mi pagina web/index.html">Pagina web</a></li>
+                  </ul>
+                </li>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Practicas con Bootstrap
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="../ejercicio 1/index.html">Practica1</a></li>
+                  <li><a class="dropdown-item" href="../ejercicio 2/contenedores.html">Practica2</a></li>
+                  <li><a class="dropdown-item" href="../ejercicio 3/ejercicio 3.html">Practica3</a></li>
+                  <li><a class="dropdown-item" href="../Ejercicio 4/ejercicio 4.html">Practica4</a></li>
+                  <li><a class="dropdown-item" href="../Ejercicios5/modal.html">Practica5</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Carrusel centrado con título -->
+    <section class="carousel-section">
+      <div class="container">
+        <h2 class="text-white">Carrusel en Bootstrap</h2>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="imag/1.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="imag/2.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="imag/3.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <script src="../estilos/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
